@@ -40,8 +40,8 @@ MainSection:NewButton("Bored Crasher", "Fucks the server", function()
 	wait(.1)
 	game:GetService'Players':Chat((":size me 0.3"))  
 end)
-MainSection:NewButton("Baka Noises", "Plays annoying baka noises", function()
-    game:GetService'Player':Chat((":music 1136862424"))
+MainSection:NewButton("Catgirls", "Harder~", function()
+    game:GetService'Player':Chat((":music 142633540"))
 end)
 
 --PLAYER
@@ -52,3 +52,4 @@ PlayerSection:NewSlider("Walkspeed", "Simple walkspeed script", 250, 16, functio
 end)
 PlayerSection:NewSlider("Jumppower", "Simple jumppower script", 250, 16, function(v)
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
+end)
