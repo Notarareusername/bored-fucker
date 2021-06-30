@@ -1,11 +1,10 @@
 if game.PlaceId == 112420803 then
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Bored fucker v1", "Midnight")
-
+local Window = Library.CreateLib("Bored Fucker v1", "Midnight")
 --MAIN
 local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main")
-MainSection:NewButton("Bored Crasher", "Fucks the server", function()
+MainSection:NewButton("Bored Crashed", "Fucks the server", function()
     game:GetService'Players':Chat((":m/Bored Fu|||||||ck||||||||er v1")) 
 	wait(1.7)
 	game:GetService'Players':Chat((":clr"))
@@ -38,9 +37,9 @@ MainSection:NewButton("Bored Crasher", "Fucks the server", function()
 	wait(.1)
 	game:GetService'Players':Chat((":size me 0.3"))
 	wait(.1)
-	game:GetService'Players':Chat((":size me 0.3"))  
+	game:GetService'Players':Chat((":size me 0.3"))
 end)
-MainSection:NewButton("Catgirls", "Harder~", function()
+MainSection:NewButton("Catgirl noises", "Plays some catgurl noises", function()
     game:GetService'Player':Chat((":music 142633540"))
 end)
 
