@@ -21,6 +21,11 @@ if game.PlaceId == 112420803 then
 		game:GetService'Players':Chat((":clr"))
 		wait(1)
 		game:GetService'Players':Chat((":m/Give it a try"))
+		wait(2)
+		local A_1 = "Crashing the server nubz"
+		local A_2 = "All"
+		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+		Event:FireServer(A_1, A_2)
 		wait(1.7)
 		game:GetService'Players':Chat((":clr"))
 		wait(1)
