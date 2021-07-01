@@ -2,6 +2,16 @@ if game.PlaceId == 112420803 then
 	local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 	local Window = Library.CreateLib("BF | Bored Fucker | V1", "Midnight")
 
+    --SCRIPTS
+    local Scripts = Window:NewTab("In-Game Commands")
+	local ScriptsSection = Scripts:NewSection("IG Commands")
+    ScriptsSection:NewButton("IY", "Fucking loads infinite yield", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end)
+    ScriptsSection:NewButton("CmdX", "Fucking loads cmdx", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+    end)
+
     --IG COMMANDS
     local Igcommands = Window:NewTab("In-Game Commands")
 	local IgcommandsSection = Igcommands:NewSection("IG Commands")
@@ -125,7 +135,7 @@ if game.PlaceId == 112420803 then
     MainSection:NewButton("Regen", "Fucking regens the adminpads", function()
         fireclickdetector(game.Workspace.Terrain._Game.Admin.Regen.ClickDetector)
     end)
-    
+
     --TELEPORTS
 	local Teleports = Window:NewTab("Teleports")
 	local TeleportsSection = Teleports:NewSection("Teleports")
