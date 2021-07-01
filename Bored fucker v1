@@ -122,7 +122,10 @@ if game.PlaceId == 112420803 then
 		wait(.1)
 		game:GetService'Players':Chat((":size me 0.3"))
 	end)
-
+    MainSection:NewButton("Regen", "Fucking regens the adminpads", function()
+        fireclickdetector(game.Workspace.Terrain._Game.Admin.Regen.ClickDetector)
+    end)
+    
     --TELEPORTS
 	local Teleports = Window:NewTab("Teleports")
 	local TeleportsSection = Teleports:NewSection("Teleports")
